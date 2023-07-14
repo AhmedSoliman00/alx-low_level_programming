@@ -1,19 +1,19 @@
-#include <stdio.h>
+#include "holberton.h"
 
 /**
- * main - Entry point for the program
+ * _puts - Prints a string to stdout
+ * @str: The string to be printed
  *
- * Return: Always 0 (success)
+ * Return: void
  */
-int main(void)
+void _puts(char *str)
 {
-    /* Print a message to the console */
-    puts("\"Programming is like building a multilingual puzzle");
+	int i;
 
-    /* Return 0 to indicate successful completion of the program */
-    return (0);
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+
+	_putchar('\n');
 }
-
-
-
-
