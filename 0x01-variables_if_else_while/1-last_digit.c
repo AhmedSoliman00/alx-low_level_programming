@@ -1,4 +1,4 @@
-iii#include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
@@ -31,4 +31,7 @@ int main(void)
 			n, n % 10);
 	}
 
-	return
+	return (0);
+
+}
+
